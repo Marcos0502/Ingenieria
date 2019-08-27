@@ -1,0 +1,99 @@
+<!DOCTYPE html> <!--Codigo HTML default-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='/css/bootstrap.css' rel='stylesheet'>
+    <link href='/css/styles.css' rel='stylesheet'>
+    <style type="text/css">
+        label {color:brown}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="TituloPrincipal" class="TituloIndex">Formulario de estudiantes </h1>
+
+    <table class="table table-dark">
+        <tr>
+            <th colspan="4">Creando columna</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Tecnologias</td>
+            <td>Html5</td>
+            <td>CSS</td>
+            <td>Javascript</td>
+        </tr>
+        <tr>
+           
+            <td>H1</td>
+            <td>style</td>             
+            <td>Var</td>
+        </tr>
+        <tr>
+                
+                <td>H2</td>
+                <td>Border</td>
+                <td>Prompt</td>
+                
+        </tr>
+        <tr>
+               
+                <td>H3</td>
+                <td>Color</td>
+                <td>Alert</td>
+                
+        </tr>
+
+    </table>        
+    <form action="https://isp20-sfe.infd.edu.ar" method="GET">
+        <label for="txnombre">Nombre:</label>
+        <input class="form-control" type="text" name="txtNombre" placeholder="Esteban" >
+        <br/> 
+        <label for="txtApellido"></label>Apellido:</label>
+        <input class="TituloPrincipal"class="form-control" type="text" name="txtApellido" placeholder="Gomez">
+        <br/>
+        <label class="TituloPrincipal" for="txtNumero de Documento">   DNI:  </label>
+        <input  class="form-control" type="text" name="txtNumero de Documento" placeholder="23.244.241">
+        <br/>
+        <br>
+        <label for="txtApellido"></label>Contraseña</label>
+        <input class="TituloPrincipal" class="form-control" type="password" name="txtApellido" placeholder="*******">
+        <br/>
+        <label for="chkargentino">Argentino</label>
+        <input class="TituloPrincipal" class="form-control" type="checkbox" name="chkargentino" />
+        <label>
+            <select class="form-control" name="Provincia"> 
+                <option value="Santa fe">Santa Fe</option>
+                <option value="Cordoba">Cordoba</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Corrientes">Corrientes</option>
+            </select>
+        </label>
+
+        <label>
+            <select class="form-control" name="Localidad">
+                <option value="San Justo">San Justo</option>
+                <option value="Gobernador Crespo">Gobernador Crespo</option>
+                <option value="Videla">Videla</option>
+                <option value="Ramayon">Ramayon</option>
+            </select>
+        </label>
+        <input type="submit" name="btnEnviar" value="Enviar Datos">
+        
+    </form>
+
+
+
+    <a href="index.html">Volver</a>
+
+    <label>
+        <textarea rows="4" cols="60" name="txa"></textarea>
+
+        </textarea>
+    </label>
+
+
+</body>
+<html></html>
